@@ -16,17 +16,6 @@ public class Palindrome {
         for (int i = textArray.length - 1; i >= 0; i--) {
             reverseArray[(textArray.length - 1) - i] = textArray[i];
         }
-
-//        for (int i = 0; i < textArray.length; i++) {
-//            if (textArray[i] != reverseArray[i]) {
-//                flag = false;
-//            } else {
-//                flag = true;
-//            }
-//        }
-
-        // For-Each Loop
-
         int i = 0;
 
         for (char c : textArray) {
