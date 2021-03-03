@@ -20,6 +20,9 @@ public class BMW implements Car{
         this.airBagIncluded = airBagIncluded;
     }
 
+    public BMW(String mercedes, String s, int i, boolean b, String blue, boolean b1, int i1, char r) {
+    }
+
     @Override
     public void gearChanging() {
         System.out.println("BMW has gear changing feature");
