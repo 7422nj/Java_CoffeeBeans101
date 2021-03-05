@@ -27,10 +27,10 @@ public class CountVowelsChallenge {
     public static void main(String args[]) {
         // String Variable
         // Insert Word of Choice
-        String str = "Around The World";
+        String str = "Altogether";
 
         // This Will Check The String Value
-        System.out.println(countVowels(str));
+        System.out.println("Number of Vowels in Word : "+countVowels(str));
     }
 
 

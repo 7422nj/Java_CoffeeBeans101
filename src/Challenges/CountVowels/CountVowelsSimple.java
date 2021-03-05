@@ -17,11 +17,17 @@ public class CountVowelsSimple {
         //================================================================================================//
 
         // Starts counting from 0 using our String Value
-        int count = 0;
+        int count = 0; // Starting Value is 0
 
         // Looks at How Many Times the Condition is Met
         // How Many Times Can Our String Value Meet The Condition & Initialized Value
+        // altogether
+        // 0123
+
+
         for (int i = 0; i < word.length(); i++){
+            //i++=1,2,3,4 incrementing
+            //i--=4,3,2,1 decrementing
 
             // These are the Words We Want The Program To Catch if Related to Our String Value
             // These Words will let Our Program Know What Words are Vowels
@@ -38,7 +44,7 @@ public class CountVowelsSimple {
         System.out.println("Total number of vowels in string are: " + count);
 
         // Returns The String Value We Used
-        return word;
+        return "Our Word is Altogether : ";
     }
 
     public static void main(String[] args) {
