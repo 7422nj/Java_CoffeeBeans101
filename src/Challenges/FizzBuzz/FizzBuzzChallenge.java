@@ -16,7 +16,7 @@ public class FizzBuzzChallenge {
     }
     public static void main(String[] args) {
         // My Number Is Checked
-        System.out.println(fizzBuzz(90)); // First Step
+        System.out.println(fizzBuzz(25)); // First Step
     }
 
 }

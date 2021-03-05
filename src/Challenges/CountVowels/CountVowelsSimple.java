@@ -44,7 +44,7 @@ public class CountVowelsSimple {
         System.out.println("Total number of vowels in string are: " + count);
 
         // Returns The String Value We Used
-        return "Our Word is Altogether : ";
+        return "Our Word is Altogether ";
     }
 
     public static void main(String[] args) {

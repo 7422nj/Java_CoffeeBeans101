@@ -4,11 +4,12 @@ public class FizzBuzzPractice {
 
     public static String fizzBuzz(int number){
 
+        //if (int i=0; i<num; i++ )
         // If Remainder Of 15 = FizzBuzz
-        if (number % 1 ==0){
+        if (number % 15 ==0){
             return "FizzBuzz";
             // If Remainder of 5 = Buzz
-        }else if (number % 20 ==0){
+        }else if (number % 5 ==0){
             return "Buzz";
             // If Remainder of 3 = Fizz
         }else if (number % 3 ==0){

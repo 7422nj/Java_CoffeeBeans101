@@ -3,6 +3,7 @@ package Challenges.RoomComposition;
 public class Room {
 
     // classType reference;
+    //className reference;
     Television tv;
     Sofa sofa;
     Wall wall;
