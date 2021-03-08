@@ -4,7 +4,7 @@ public class Palindrome {
 
     // Palindrome = A word that is the same forward and backwards (MOM)
     public static void main(String[] args) {
-        System.out.println(isPalindrome("racecar"));
+        System.out.println(isPalindrome("lol"));
     }
 
     public static boolean isPalindrome(String text) {

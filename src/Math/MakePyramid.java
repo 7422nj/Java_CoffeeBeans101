@@ -16,7 +16,10 @@ public class MakePyramid {
 
         int rows = 5, k = 0;
 
+        // Outer Loop
         for (int i = 1; i <= rows; ++i, k = 0) {
+
+            //Inner Loop
             for (int space = 1; space <= rows - i; ++space) {
                 System.out.print("  ");
             }
