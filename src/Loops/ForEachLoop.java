@@ -8,24 +8,42 @@ public class ForEachLoop {
         // The Advantage of the ForEachLoop: 1. Eliminates the possibility of bugs 2. Makes the code more readable.
         // It is known as the ForEachLoop because it performs operations on each the elements one by one.
 
+        //Java ArrayList class uses a dynamic array for storing the elements.
+        // It is like an array, but there is no size limit. We can add or remove elements anytime.
+        // So, it is much more flexible than the traditional array. It is found in the java.util package.
+        //The ArrayList in Java can have the duplicate elements also.
+        // It implements the List interface so we can use all the methods of List interface here.
+        // The ArrayList maintains the insertion order internally.
 
-        //typeOfClass reference=new constructorOfClass
-        //Creating A ArrayList
-        //ArrayList<String> list = new ArrayList<String>();
+        //How to Make Object: className reference=new className
+        //typeOfClass<dateType> reference=new constructorOfClass<dateType>
+        ArrayList<String> list = new ArrayList<String>(); // First We Made An ArrayList
 
         // Adding To The List
-        //list.add("George");
-        //list.add("Beenish");
-        //list.add("Syeda");
-        //list.add("Pritam");
+        list.add("George");    //  s=George-prints #0
+        list.add("Beenish");  //   s=Beenish-prints #1
+        list.add("Syeda");   //    s=Syeda-prints  #2
+        list.add("Pritam"); //     s=Pritam-prints #3
+
+        list.remove("Pritam");
+
+        list.add("Muniba");
+
 
         //Accessing Every Object Stored In ArrayList and Performing Some Operations
         // 1. So This ForEachLoops See's That There Are 4 Names In The List
         // 2. Than It Prints Names In The List 1 by 1
-        //for (String s : list) {
+        for (String s : list) {  // Checks The List 1 by 1
 
-            // Print List
-           // System.out.println(s);
+
+            // Print List 1 by 1
+            System.out.println(s);
+        }
+
+        list.add("Pritam");
+        System.out.println(list);
+    }
+
 
 
 //===========================================================================================================//
@@ -33,34 +51,35 @@ public class ForEachLoop {
             // How To Get Total Using ForEachLoop
             // ForEachLoop is Performing an Operation 1 by 1
             // Created an Array
-             int arr[]={12,13,14,44};
+            // int arr[]={12,13,14,44};
 
             // Said total=0;
-             int total=0;
+            // int total=0;
 
             // Here We Are Telling Them We Want The Total
             // for (int i=arr){
-            for(int i:arr){
+            //for(int i:arr){
                 // Add The Numbers in Array 1 by 1
-             total=total+i;
+             //total=total+i;
 
             // Printing The Total
-             System.out.println("Total: "+total);
+             //System.out.println("Total: "+total);
 
 //=============================================================================================================//
 
             //How To Print Using ForEachLoop
             //declaring an array
-          //  int arr[] = {12, 13, 14, 44};
+            // ForEachLoop Runs A Operation On a Array One by One
+           // int array[] = {12, 13, 14, 44}; // First The Array is Viewed
+            //i=12-prints//i=13-prints//i=14-prints//i=44-prints// 1 by 1
 
             // Performing Operations in This Instance Verifying All Numbers Inside The Array
-           // for (int i : arr) {
+            //for (int i : array) {
 
                 //Printing All The Numbers In The Array
-                //System.out.println(i);
+               // System.out.println(i);
 
             }
-        }
-    }
+
 
 
