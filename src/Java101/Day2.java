@@ -18,13 +18,15 @@ public class Day2 {
         // #2 is Getter
         System.out.println(day1.getFullName()); // Get Value - Getter
 
-        // Single comment
-
+        //*** Types of Commenting ***//
+        //**************************//
+        // Single commenting
+        //************************//
         /**
          * Document commenting
          *
          */
-
+         //******************//
 
     }
 }

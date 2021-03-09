@@ -79,6 +79,22 @@ public class ForEachLoop {
 
         }
     }
+
+    public static class ForLoopExample {
+            /*
+            For-Loops
+            we use For-Loops only when we know exactly how many times we would like the program to run
+             */
+            public static void main(String[] args) {
+                String firstName="Azadeh ";
+                String lastName=" Tolo";
+                String fullName=firstName+" "+lastName;
+
+                for (int i=0;i<10; i++){
+                    System.out.println ("Full Name is : "+fullName);
+                }
+            }
+        }
 }
 
 
