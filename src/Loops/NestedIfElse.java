@@ -11,7 +11,7 @@ package Loops;
 //   }
 //}
 
-public class NestedIf {
+public class NestedIfElse {
     public static void main(String args[])
     {
         int i = 10; // Initializing A Value
