@@ -8,7 +8,6 @@ public class ForLoop {
 
     public static void main(String[] args) {
         //For Loop
-        // for(initialize a value; conditioning if value meets;i++ incrementing,i-- decrementing){
         // age equals 25; if age is greater than 18; print the values in decreasing numbers
         //for(initialization; Boolean_expression; update++)
         for(int age =25; age >= 18;age--){ //#1 Step

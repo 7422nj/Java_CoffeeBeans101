@@ -18,6 +18,8 @@ public class InnerLoops {
 
     //**************************************************************************************************//
 
+    // Our Example: i=0,j=0,row=6 (i<row)[Outer Loop] (j<=i)[Inner Loop]
+
     //Prints         //Condition
 
     // 0             i=0,j=0

@@ -8,6 +8,7 @@ public class TestZoo {
 
     //Lion
     Lion lion = new Lion("Lion",2);
+        System.out.println(lion.getAge());
     //Turtle
     Turtle turtle = new Turtle("Turtle",3);
     //Shark

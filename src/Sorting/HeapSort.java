@@ -2,11 +2,78 @@ package Sorting;
 
 public class HeapSort {
 
+    // Definition of Heap Sort:
     // HeapSort is similar to selection sort.
     // First we find the maximum element
     // Then place the maximum element at the end.
     // We repeat the same process for the remaining elements.
 
+    //**************************************************************************************************************//
+    //Example:
+    //     Index: 0  1   2  3  4
+    //Input data: [4], [10], 3, 5, 1 <- We Built A Heap
+    //
+    //     Our Max Heap: 10 is Greater Than 4 so we Swap
+    //         (10)
+    //        /   \
+    //     (4)   (3)
+    //    /   \
+    // (5)    (1)
+    //
+    //     Index: 0    1   2   3   4
+    //Input data: 10, [4], 3, [5], 1
+    //
+    //     Our Max Heap: 5 is Greater Than 4 so we Swap
+    //         (10)
+    //        /   \
+    //    (5)    (3)
+    //    /   \
+    // (4)    (1)
+    //
+    //     Index: 0    1   2   3   4
+    //Input data:[1],  5,  3,  4, [10]
+    //
+    //Applying heapify procedure to index 0: So we Swap 10 and 1
+    //        (1)
+    //        /  \
+    //     (5)  (3)
+    //    /   \
+    // (4)    (10)
+    //
+    //The heapify procedure calls itself recursively to build heap
+    // in top down manner.
+    //
+    //           Index: 0    1   2    3    4
+    //    //Input data: 1,   5, [3], [4],  10
+    //
+    //     Our Max Heap: 4 is Greater Than 3 so we Swap
+    //         (1)
+    //        /  \
+    //     (5)   (4)
+    //    /   \
+    // (3)    (10)
+    //
+    //
+    //           Index: 0    1    2    3    4
+    //    //Input data: 1,  [3], [5],  4,  10
+    //     Our Max Heap: 5 is Greater Than 3 so we Swap
+    //         (4)
+    //        /   \
+    //     (10)   (3)
+    //    /   \
+    //  (5)   (1)
+    //
+    //           Index: 0    1    2    3    4
+    //    //Input data: 1,   3,  [5], [4],  10
+    //     Our Max Heap: 5 is Greater Than 4 so we Swap
+    //         (5)
+    //        /   \
+    //     (10)   (3)
+    //    /   \
+    //  (4)   (1)
+    //
+    // Now Our Heap is Sorted: 1,3,4,5,10
+    //************************************************************************************************************//
 
     // Java program for implementation of Heap Sort
         public void sort(int arr[]) {

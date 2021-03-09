@@ -3,7 +3,7 @@ package Loops;
 import java.util.ArrayList;
 
 public class ForEachLoop {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         // The Advantage of the ForEachLoop: 1. Eliminates the possibility of bugs 2. Makes the code more readable.
         // It is known as the ForEachLoop because it performs operations on each the elements one by one.
@@ -25,9 +25,10 @@ public class ForEachLoop {
         list.add("Syeda");   //    s=Syeda-prints  #2
         list.add("Pritam"); //     s=Pritam-prints #3
 
-        list.remove("Pritam");
+         list.remove("Pritam");
 
-        list.add("Muniba");
+         list.add("Azadeh");
+        list.add("Pritam");
 
 
         //Accessing Every Object Stored In ArrayList and Performing Some Operations
@@ -36,13 +37,10 @@ public class ForEachLoop {
         for (String s : list) {  // Checks The List 1 by 1
 
 
-            // Print List 1 by 1
+            //Print List 1 by 1
             System.out.println(s);
-        }
 
-        list.add("Pritam");
-        System.out.println(list);
-    }
+
 
 
 
@@ -59,27 +57,30 @@ public class ForEachLoop {
             // Here We Are Telling Them We Want The Total
             // for (int i=arr){
             //for(int i:arr){
-                // Add The Numbers in Array 1 by 1
-             //total=total+i;
+            // Add The Numbers in Array 1 by 1
+            //total=total+i;
 
             // Printing The Total
-             //System.out.println("Total: "+total);
+            //System.out.println("Total: "+total);
 
 //=============================================================================================================//
 
             //How To Print Using ForEachLoop
             //declaring an array
             // ForEachLoop Runs A Operation On a Array One by One
-           // int array[] = {12, 13, 14, 44}; // First The Array is Viewed
+            //int array[] = {12, 13, 14, 44}; // First The Array is Viewed
             //i=12-prints//i=13-prints//i=14-prints//i=44-prints// 1 by 1
 
             // Performing Operations in This Instance Verifying All Numbers Inside The Array
             //for (int i : array) {
 
-                //Printing All The Numbers In The Array
-               // System.out.println(i);
+            //Printing All The Numbers In The Array
+            //  System.out.println(i);
 
-            }
+        }
+    }
+}
+
 
 
 

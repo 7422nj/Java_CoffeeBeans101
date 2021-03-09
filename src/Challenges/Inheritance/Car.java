@@ -3,12 +3,18 @@ package Challenges.Inheritance;
 // Guideline or proto type that other companies will follow to develop their own products
 
 public class Car {  // Grandfather Class
-    // Create Protected Variables
+
+    // Create Default Variables: default,protected,private and public
     String brand;
     String model;
     int numberOfDoors;
     boolean isAvailable;
     String color;
+
+    public Car() {
+    }
+
+    //How to Make An Object: className reference = new constructorOfClass():
 
     // Create Constructor
     public Car(String brand,String model,int numberOfDoors, boolean isAvailable, String color) {

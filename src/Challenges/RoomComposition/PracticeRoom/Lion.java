@@ -3,7 +3,7 @@ package Challenges.RoomComposition.PracticeRoom;
 public class Lion {
 
     private String name;
-    private int age;
+    private int age=3;
 
     public Lion(String name, int age) {
         this.name = name;
