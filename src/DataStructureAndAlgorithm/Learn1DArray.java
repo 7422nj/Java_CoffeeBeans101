@@ -1,6 +1,4 @@
-package Java101;
-
-import java.util.Arrays;
+package DataStructureAndAlgorithm;
 
 // Java provides a data structure, The Array, which stores a fixed-size sequential collection of elements of the same type.
 // An array is used to store a collection of data
@@ -64,33 +62,38 @@ import java.util.Arrays;
 //
 // int[] intArray = new int[20]; // Combining Both Statements In One
 
-public class Day5 {
-    public static void main(String[] args) throws Exception {
+public class Learn1DArray {
+    public static void main (String[] args)
+    {
+        // Declare an Array of Integers
+        int[] arr;
 
-        //How Make Arrays:
-        int x;
-        //Option 1
-        int[] nums = new int[5]; // Array with 5 Rows
-        nums[0] = 5; // Index 0=5
-        nums[1] = 4; // Index 1=4
-        nums[2] = 3; // Index 2=3
-        nums[3] = 2; // Index 3=2
-        nums[4] = 1; // Index 4=1
+        // Allocating Memory for 5 Integers
+        arr = new int[5]; // <- Designate The Memory Size According To What You Want/Need in The Array
 
-        // We Want To Pick And See Value of Something in Our Array
-        System.out.println("Length of the Array is " + nums.length); // This Will Print The Length of The Array
-        System.out.print("Index 2's Value is " + nums[2]); // This Will Print Index 2 of The Array
-        System.out.println();
-        System.out.println("Max Number is " + Arrays.stream(nums).max()); // This Will Print Maximum Number in Array
-        System.out.println("Lowest Number is " + Arrays.stream(nums).min()); // This Will Print Lowest Number in Array
-        System.out.println("Object's Memory Address is " + nums.hashCode()); // This Gives a Distinct Hash Code Which is This Code's Unique ID Address
+        // Initialize the First Elements of the Array
+        arr[0] = 10;
 
-        //Option 2
-        int[] num = {12, 3, 41, 30, 23, 8}; // Created an Array
+        // Initialize the Second Element of the Array
+        arr[1] = 20;
 
-        System.out.println("Index 1's Value is " + num[1]);
+        // Initialize the Third Element of the Array
+        arr[2] = 30;
 
+        // Initialize the Fourth Element of the Array
+        arr[3] = 40;
 
+        // Initialize the Fifth Element of the Array
+        arr[4] = 50;
+
+        // Accessing The Elements of the Specified Array
+        for (int i = 0; i < arr.length; i++)
+            System.out.println("Element at index " + i + " : "+ arr[i]); // Print's Each Element of the Array 1 by 1
+
+        //Element at index 0 : 10
+        //Element at index 1 : 20
+        //Element at index 2 : 30
+        //Element at index 3 : 40
+        //Element at index 4 : 50
     }
-
 }
