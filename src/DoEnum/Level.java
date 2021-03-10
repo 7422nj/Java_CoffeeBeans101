@@ -51,6 +51,10 @@ public enum Level {
     Level(){
 
 }
+public enum food{
+        Pizza,pasta,burger,onAndOn,
+
+}
 
 
 }

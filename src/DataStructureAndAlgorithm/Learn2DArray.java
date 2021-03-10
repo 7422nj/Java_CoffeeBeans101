@@ -123,4 +123,7 @@ public class Learn2DArray {
         }
         System.out.println("********************************************************************************");
     }
+    // Will add list l2 from 1 index
+    // list1.addAll(1, list2);
+    // System.out.println(list1.size());
 }

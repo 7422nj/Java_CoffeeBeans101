@@ -30,7 +30,6 @@ public class Day3 {
 
         // How can we call a static variable inside main method?
         // Static variable/method call by class name as that variable/method in class level.
-
         Day3.stName="Kevin"; // ReAssign value
         Day3.stName="Arafat";
         System.out.println(Day3.stName);
