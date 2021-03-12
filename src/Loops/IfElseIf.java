@@ -42,7 +42,7 @@ public class IfElseIf {
             System.out.println("Your age is more/less than 24");
 
             // If Age is greater than or equal to 40 || if age is less than or equal to 50 = "Your age is more than 40"
-        } else if ( age >= 40 || age <=50){
+        } else if ( age > 45 || age <53){
             System.out.println("Your age is more than 40");
 
             // If Age is greater than or equal to 50 || if age is less than or equal to 60 = "Your age is more than 50"

@@ -14,21 +14,21 @@ package Loops;
 public class NestedIfElse {
     public static void main(String args[])
     {
-        int i = 10; // Initializing A Value
+        int i = 17; // Initializing A Value
 
-        if (i == 10){ // if i is equal to 10 <-- outer loop
+        if (i == 0) { // if i is equal to 10 <-- outer loop
 
             // First if statement
             if (i < 15) // if i is less than 15 than print = "i is smaller than 15" <-- inner loop
-                System.out.println("i is smaller than 15");
+                System.out.println("i is less than 15");
 
             // Nested - if statement
             // Will only be executed if statement above it is true
-            if (i < 12) // if i is less than 12 than print = "i is smaller than 12 too" <-- also inner loop
-                System.out.println("i is smaller than 12 too");
+            if (i < 30) // if i is less than 12 than print = "i is smaller than 12 too" <-- also inner loop
+                System.out.println("i is less than 30 too");
 
-            else // if the conditions above are not met than print = "i is greater than 15" <-- also inner loop
-                System.out.println("i is greater than 15");
+        }else{ // if the conditions above are not met than print = "i is greater than 15" <-- also inner loop
+                System.out.println("i is less than 30");
         }
     }
 }
