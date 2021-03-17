@@ -1,4 +1,4 @@
-package DataStructureAndAlgorithm;
+package DataStructure.DataStructureAndAlgorithm;
 
 // Java provides a data structure, The Array, which stores a fixed-size sequential collection of elements of the same type.
 // An array is used to store a collection of data

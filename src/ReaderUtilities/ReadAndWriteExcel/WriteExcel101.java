@@ -10,7 +10,7 @@ import java.io.IOException;
 
 //Here are the Basic Steps For Writing an Excel File:
 // 1. Create a Workbook. <- XSSFWorkbook
-// 2. Create a Sheet.    <- XSSFSheet
+// 2. Create a Sheet. <- XSSFSheet
 //Repeat the following steps until all data is processed:
 // 1. Create a Row in a Sheet. <- sheet.createRow()
 // 2. Create Cells in a Row. <- row.createCell()
@@ -18,6 +18,7 @@ import java.io.IOException;
 // 4. Close the output stream. <- fos.close()
 
 public class WriteExcel101 {
+
     public static void main(String[] args) throws IOException {
 
         //This is the root class to handle XLSX.
@@ -62,21 +63,23 @@ public class WriteExcel101 {
                 Cell cell = row.createCell(++columnCount);
 
                 //If the field fetched is String <- set the value in String Format
-                if (field instanceof String) {
-                    cell.setCellValue((String) field);
+                if (field instanceof String) { //Returns true or false if instance is of specified type <-String
+                    cell.setCellValue((String) field); //Sets value as String in Excel File's cell
 
                 //Or else, if the field fetched is Integer <- set the value in Integer Format
-                } else if (field instanceof Integer) {
-                    cell.setCellValue((Integer) field);
+                } else if (field instanceof Integer) { //Returns true or false if instance is of specified type <-Integer
+                    cell.setCellValue((Integer) field); //Sets value as Integer in Excel File's cell
                 }
             }
         }
-        //In Read Excel Since We Are Trying Receive A ExcelSheet We Used FileInputStream <- To Get
-        //In Write Excel Since We Are Trying To Send Out The Data To ExcelSheet We Will Use FileOutputStream <- To Send
-        try (FileOutputStream outputStream = new FileOutputStream("excelwrite101 .xlsx")) {
+        //In Read Excel Since We Are Trying Receive A ExcelSheet We Used FileInputStream <- To Receive Data
+        //In Write Excel Since We Are Trying To Send Out The Data To ExcelSheet We Will Use FileOutputStream <- To Send Data
+        try (FileOutputStream outputStream = new FileOutputStream("ReaderUtilities/ReadFiles/WriteExcel201.xlsx")) {
 
             //In the excel workbook write the data that we are sending out to the excel file from the Array
             workbook.write(outputStream);
         }
+
     }
+
 }

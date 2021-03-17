@@ -11,6 +11,7 @@ public class Day2 {
         day1.pizzaName();
         day1.myAgeIs();
         day1.myNameIs();
+        day1.setFullName("s");
 
         //When you want to Retreive a Variable that has Getter and Setter in Previous class
         // #1 is Setter

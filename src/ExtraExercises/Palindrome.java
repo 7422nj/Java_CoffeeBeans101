@@ -8,12 +8,17 @@ public class Palindrome {
     }
 
     public static boolean isPalindrome(String text) {
+
+
         char[] textArray = text.toLowerCase().toCharArray();
+
+
+
+
         char[] reverseArray = new char[textArray.length];
         boolean flag = false;
-
-
         for (int i = textArray.length - 1; i >= 0; i--) {
+
             reverseArray[(textArray.length - 1) - i] = textArray[i];
         }
         int i = 0;

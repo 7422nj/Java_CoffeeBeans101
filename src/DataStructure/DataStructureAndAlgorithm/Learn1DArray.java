@@ -1,4 +1,4 @@
-package DataStructureAndAlgorithm;
+package DataStructure.DataStructureAndAlgorithm;
 
 // Java provides a data structure, The Array, which stores a fixed-size sequential collection of elements of the same type.
 // An array is used to store a collection of data
@@ -11,6 +11,7 @@ package DataStructureAndAlgorithm;
 //
 // One-Dimensional Arrays :
 // The general form of a one-dimensional array declaration is:
+//
 // type variable-name[];
 // OR
 // type[] variable-name;
@@ -66,29 +67,30 @@ public class Learn1DArray {
     public static void main (String[] args)
     {
         // Declare an Array of Integers
-        int[] arr;
+        int[] age;
 
         // Allocating Memory for 5 Integers
-        arr = new int[5]; // <- Designate The Memory Size According To What You Want/Need in The Array
+        age = new int[5]; // <- Designate The Memory Size According To What You Want/Need in The Array
 
         // Initialize the First Elements of the Array
-        arr[0] = 10;
+        age[0] = 10;
 
         // Initialize the Second Element of the Array
-        arr[1] = 20;
+        age[1] = 20;
 
         // Initialize the Third Element of the Array
-        arr[2] = 30;
+        age[2] = 30;
 
         // Initialize the Fourth Element of the Array
-        arr[3] = 40;
+        age[3] = 40;
 
         // Initialize the Fifth Element of the Array
-        arr[4] = 50;
+        age[4] = 50;
 
         // Accessing The Elements of the Specified Array
-        for (int i = 0; i < arr.length; i++)
-            System.out.println("Element at index " + i + " : "+ arr[i]); // Print's Each Element of the Array 1 by 1
+        //Start At Index #0; If i is less than age;print;
+        for (int i = 0; i < age.length; i++)
+            System.out.println("Element at index : "+ age[i]); // Print's Each Element of the Array 1 by 1
 
         //Element at index 0 : 10
         //Element at index 1 : 20

@@ -10,7 +10,9 @@ public class ForLoop {
         //For Loop
         // age equals 25; if age is greater than 18; print the values in decreasing numbers
         //for(initialization; Boolean_expression; update++)
-        for(int age =25; age >= 18;age--){ //#1 Step
+
+        // initilized the age is 25; boolean condition
+        for (int age=25; age >= 18;age--){ //#1 Step
 
             // 18,19,20,21,22,23,24,25 increment
             // 25,24,23,22,21,20,19,18 decrement
@@ -18,3 +20,10 @@ public class ForLoop {
             // Print Numbers of Ages
         System.out.println(age);
     }}}
+    /*
+    + is addition
+    = is equal
+    == equal to in a loop
+    || or
+    && and
+     */

@@ -1,4 +1,4 @@
-package InheritanceChallenge;
+package Inheritance.InheritanceChallenge;
 
 public class Test {
     public static void main(String[] args) {

@@ -23,7 +23,7 @@ public class ReadTextFiles {
 
     // Created a Static String variable Named relativePath
     // Entered The Path From Content Root as Value in our Static String relativePath
-    static String relativePath = "/src/ReaderUtilities/testBufferedReader.txt";  ///src/readerUtilities/Test.txt
+    static String relativePath = "src/ReaderUtilities/ReadFiles/testBufferedReader.txt";  ///src/readerUtilities/Test.txt
 
     // We Want To Combine systemPath's Specified Key + relativePath's Path From Content Root
     static String path = systemPath + relativePath;

@@ -1,0 +1,27 @@
+What is Casting in Java?
+Well, all casting really means is taking an Object of one particular type and “turning it into” another Object type.
+This process is called casting a variable.
+
+This topic is not specific to Java, as many other programming languages support casting of their variable types.
+But, as with other languages, in Java you cannot cast any variable to any random type.
+
+What are the Rules behind Casting Variables?
+It’s fairly simple, you remember our talk about how everything in Java is an Object, and any Object you create extends from Object?
+This was inheritance, and this is important to understand when dealing with casting.
+
+If you are going to cast a variable, you’re most likely doing what’s known as a downcast.
+This means that you’re taking the Object and casting it into a more “specific” type of Object. Here’s an example:
+
+Object aSentenceObject = "This is just a regular sentence";
+String aSentenceString = (String)aSentenceObject;
+
+You see what we’ve done here? Since the type Object is a very broad type for a variable, we are “downcasting” the variable to be a String type.
+Now, the question is, is this legal?
+Well, you can see that the value stored in the aSentenceObject is just a plain old String, so this cast is perfectly legal.
+Let’s look at the reverse scenario, an “upcast”:
+
+String aSentenceString = "This is just another regular sentence";
+Object aSentenceObject = (Object)aSentenceString;
+
+Here we are taking a variable with a more specific type (String) and casting it to a variable type that’s more generic (Object).
+This is also legal, and really, it is always legal to upcast.

@@ -25,24 +25,18 @@ public class ForEachLoop {
         list.add("Syeda");   //    s=Syeda-prints  #2
         list.add("Pritam"); //     s=Pritam-prints #3
 
-         list.remove("Pritam");
+        list.remove("Pritam");
 
-         list.add("Azadeh");
+        list.add("Azadeh");
         list.add("Pritam");
-
 
         //Accessing Every Object Stored In ArrayList and Performing Some Operations
         // 1. So This ForEachLoops See's That There Are 4 Names In The List
         // 2. Than It Prints Names In The List 1 by 1
         for (String s : list) {  // Checks The List 1 by 1
 
-
             //Print List 1 by 1
             System.out.println(s);
-
-
-
-
 
 //===========================================================================================================//
 
@@ -68,34 +62,33 @@ public class ForEachLoop {
             //How To Print Using ForEachLoop
             //declaring an array
             // ForEachLoop Runs A Operation On a Array One by One
-            //int array[] = {12, 13, 14, 44}; // First The Array is Viewed
-            //i=12-prints//i=13-prints//i=14-prints//i=44-prints// 1 by 1
-
-            // Performing Operations in This Instance Verifying All Numbers Inside The Array
-            //for (int i : array) {
-
-            //Printing All The Numbers In The Array
-            //  System.out.println(i);
-
-        }
-    }
-
-    public static class ForLoopExample {
-            /*
-            For-Loops
-            we use For-Loops only when we know exactly how many times we would like the program to run
-             */
-            public static void main(String[] args) {
-                String firstName="Azadeh ";
-                String lastName=" Tolo";
-                String fullName=firstName+" "+lastName;
-
-                for (int i=0;i<10; i++){
-                    System.out.println ("Full Name is : "+fullName);
-                }
-            }
-        }
-}
+//            int array[] = {12, 13, 14, 44}; // First The Array is Viewed
+//            //i=12-prints//i=13-prints//i=14-prints//i=44-prints// 1 by 1
+//
+//            // Performing Operations in This Instance Verifying All Numbers Inside The Array
+//            for (int i : array) {
+//
+//                //Printing All The Numbers In The Array
+//                System.out.println(i);
+            }}}
+//
+//    public static class ForLoopExample {
+//            /*
+//            For-Loops
+//            we use For-Loops only when we know exactly how many times we would like the program to run
+//             */
+//            public static void main(String[] args) {
+//                String firstName="Azadeh ";
+//                String lastName=" Tolo";
+//                String fullName=firstName+" "+lastName;
+//
+//                //Initilization; Boolean Condition; increment;
+//                for (int i=0;i<10; i++){
+//                    System.out.println ("Full Name is : "+fullName);
+//                }
+//            }
+//        }
+//}
 
 
 

@@ -1,6 +1,6 @@
 package Challenges.Inheritance;
 
-import InheritanceChallenge.Car;
+import Inheritance.InheritanceChallenge.Car;
 
     public class BMW extends Car { // Father Class
 

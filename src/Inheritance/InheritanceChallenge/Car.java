@@ -1,4 +1,4 @@
-package InheritanceChallenge;
+package Inheritance.InheritanceChallenge;
 // Guideline or proto type that other companies will follow to develop their own products
 
 public class Car {  // Grandfather Class

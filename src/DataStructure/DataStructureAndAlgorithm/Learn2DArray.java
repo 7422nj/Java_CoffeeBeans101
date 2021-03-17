@@ -1,4 +1,4 @@
-package DataStructureAndAlgorithm;
+package DataStructure.DataStructureAndAlgorithm;
 
 // Two – dimensional Array (2D-Array)
 // Two – dimensional array is the simplest form of a multidimensional array.

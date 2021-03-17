@@ -1,4 +1,4 @@
-package DataStructureAndAlgorithm;
+package DataStructure.DataStructureAndAlgorithm;
 
 // Three – dimensional Array (3D-Array)
 // Three – dimensional array is a complex form of a multidimensional array. A three – dimensional array can be seen as an array of two – dimensional array for easier understanding.
