@@ -1,0 +1,90 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+************************************ Constructors of Java BufferedReader Class *********************************
+
+Constructor #1:
+BufferedReader(Reader rd)
+
+Description:
+It is used to create a buffered character input stream that uses the default size for an input buffer.
+
+-----------------------------------------------------------------------------------------------------------
+Constructor #2:
+BufferedReader(Reader rd, int size)
+
+Description:
+It is used to create a buffered character input stream that uses the specified size for an input buffer.
+
+*********************************** Methods of Java BufferedReader Class *************************************
+
+
+Method #1 -> int read()
+
+Description:
+It is used for reading a single character.
+
+-----------------------------------------------------------------------------------------------------------
+
+Method #2 -> int read(char[] cbuf, int off, int len)
+
+Description:
+It is used for reading characters into a portion of an array.
+
+Extra Notes:
+read(char[] cbuf) method reads characters into an array.
+This method will block until some input is available,an I/O error occurs or the end of the stream is reached.
+
+ read(int off, int len) method reads upto len bytes of data from the input stream into an array of bytes.
+ If the parameter len is zero, then no bytes are read and 0 is returned;
+ else there is an attempt to read atleast one byte.
+
+-----------------------------------------------------------------------------------------------------------
+
+Method #3 -> boolean markSupported()
+
+Description:
+It is used to test the input stream support for the mark and reset method.
+
+-----------------------------------------------------------------------------------------------------------
+
+Method #4 -> String readLine()
+
+Description:
+It is used for reading a line of text.
+
+-----------------------------------------------------------------------------------------------------------
+
+Method #5 -> boolean ready()
+
+Description:
+It is used to test whether the input stream is ready to be read.
+
+-----------------------------------------------------------------------------------------------------------
+
+Method #6 -> long skip(long n)
+
+Description:
+It is used for skipping the characters.
+
+-----------------------------------------------------------------------------------------------------------
+
+Method #7 -> void reset()
+
+Description:
+It repositions the stream at a position the mark method was last called on this input stream.
+
+-----------------------------------------------------------------------------------------------------------
+
+Method #8 -> void mark(int readAheadLimit)
+
+Description:
+It is used for marking the present position in a stream.
+
+-----------------------------------------------------------------------------------------------------------
+
+Method #9 -> void close()
+
+Description:
+It closes the input stream and releases any of the system resources associated with the stream.
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

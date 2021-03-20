@@ -1,0 +1,32 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+************************************** Constructors of FileReader class ***********************************
+
+Constructor -> FileReader(String file)
+
+Description:
+It gets filename in string. It opens the given file in read mode. If file doesn't exist, it throws FileNotFoundException.
+
+-----------------------------------------------------------------------------------------------------------
+
+Constructor -> FileReader(File file)
+
+Description:
+It gets filename in file instance. It opens the given file in read mode. If file doesn't exist, it throws FileNotFoundException.
+
+************************************** Methods of FileReader class ****************************************
+
+
+Method -> int read()
+
+Description:
+It is used to return a character in ASCII form. It returns -1 at the end of file.
+
+-----------------------------------------------------------------------------------------------------------
+
+Method -> void close()
+
+Description:
+It is used to close the FileReader class.
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

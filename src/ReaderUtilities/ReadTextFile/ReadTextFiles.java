@@ -45,7 +45,7 @@ public class ReadTextFiles {
     }
 
     // Created A Static Method
-    static void readFile() {
+    public static void readFile() {
 
         String data =""; // String variable without a value/empty
 
