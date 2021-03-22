@@ -9,7 +9,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Iterator;
 
-public class ExcelR {
+public class ExcelRead {
     //1. XSSFWorkbook
     //2. XSSFSheet
     //3. Fetch Row
