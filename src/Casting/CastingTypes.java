@@ -46,7 +46,7 @@ public class CastingTypes {
         System.out.println("The double value: " + data);
         System.out.println("************************************************************");
 
-        //In the above example, we are assigning the int type variable named numb to a double type variable named Data.
+        //In the above example, we are assigning the int type variable named num to a double type variable named Data.
         //
         //Here, the Java first converts the int type Data into the double type. And then assign it to the double variable.
         //
@@ -63,7 +63,7 @@ public class CastingTypes {
         //In Narrowing Type Casting, we manually convert one Con type into another using the parenthesis.
 
         // create double type variable
-        double numb = 10.99;
+        double numb = 10.99d;
         System.out.println("The double value: " + numb);
 
         // convert into int type
@@ -136,6 +136,23 @@ public class CastingTypes {
         // Automatic Type Conversion <- Long to Float
         float f = l;
 
+        // Automatic Type Conversion <- Float to Double
+        double d = f;
+
+        //explicit Type Conversion <-
+        char e = (char)d;
+
+        String u = String.valueOf(0);
+
+        int v = Integer.parseInt(u);
+
+        String p = String.valueOf(v);
+
+        String ok = "Beenish is learning";
+        int ox = Integer.parseInt(ok);
+
+        Object obj = (Object)ox;
+
         System.out.println("Int value "+o);
         System.out.println("Long value "+l);
         System.out.println("Float value "+f);
@@ -144,10 +161,10 @@ public class CastingTypes {
     //****************************************************************************************************//
 
         // -> Explicit Type Casting <- //
-        double d = 100.04;
+        double du = 100.04;
 
         //explicit type casting
-        long n = (long)d;
+        long n = (long)du;
 
         //explicit type casting
         int k = (int)n;
