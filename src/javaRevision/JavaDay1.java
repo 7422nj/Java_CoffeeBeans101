@@ -13,11 +13,11 @@ public class JavaDay1 {
     char foodSize = 'l'; //Stores a single character/letter or ASCII values
 
     public static void main(String[] args) {
-        //Non Primitive DataTypes
+        //Non Primitive DataTypes -> String, Class
         String name = "Anaam";
         System.out.println(name.indexOf("m"));
     }
-        public void ifNumber ( int names){
+        public void ifNumber (int names){
             for (int w = 0; w == names; ++w) {
                 //w++ is after results
                 //++w is before results

@@ -2,26 +2,30 @@ package ExceptionHandling;
 
 public class ExceptionHandlingDay1 {
 
-    public static boolean isAgeValid(int age) {
+    public static void isAgeValid(int age) {
 
+        //Try command indicates the start of the block
         try {
-            if (age < 25) {
-                System.out.println(isAgeValid(age));
-                age++;
+            if (age > 17) {
+                System.out.println("Age is valid");
+            } else if (age < 17) {
+                System.out.println("Age is not valid");
+            } else {
+                System.out.println("*** Try Again ***");
             }
 
-        } catch (Exception e) {
-            e.printStackTrace();
+        //Catch is placed at the end of the try block, which helps to resolve the Exception.
+        } catch (Exception u) {
+            u.printStackTrace();
+            System.out.println("Exception Was Caught");
 
-        } finally {
-            System.out.println(isAgeValid(age));
-
+        //It is the final code that helps you to executes irrespective of the occurrence of an exception
+        } finally {//The finally block always executes.
+            System.out.println("Operation is Complete");
         }
-        return isAgeValid(age);
     }
-
     public static void main(String[] args) {
-        isAgeValid(22);
+        isAgeValid(18);
     }
 
     //-> single line comment

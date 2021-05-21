@@ -1,5 +1,7 @@
 package Java101;
 
+import java.util.Date;
+
 public class Day1 {
 
     //There are Four Types of Java Access Modifiers:
@@ -32,6 +34,7 @@ public class Day1 {
     int num = 20; // default variable - only inside the package
     private String fullName = "Pritam Das";
     private String pizzaTopping = "No toppings";
+    private int numOfToppings = 3;
 
     //Different DataTypes     Total Limit:
     int getNum = 1234567891;      //10
@@ -42,6 +45,16 @@ public class Day1 {
     char oneCharacter = 'l';      //Only 1 Character 'l' or '3'
     String say = "Hello World";   //String Value
     long superLong = 123711188l;  //19
+
+    //Getter for PizzaToppings
+    public String getPizzaTopping() {
+        return pizzaTopping;
+    }
+
+    public void setPizzaTopping(String pizzaTopping, int numOfToppings) {
+        this.pizzaTopping = pizzaTopping;
+        this.numOfToppings = numOfToppings;
+    }
 
     //How To Make Getters And Setters:
     // #1 Step is Getter
@@ -63,8 +76,26 @@ public class Day1 {
         this.fullName = fullName;
         this.pizzaTopping = pizzaTopping;
     }
+    public Day1(){
+
+}
+
+
 
     public static void main(String[] args) {
+
+        //className referenceName = new constructorOfClass(paramters from constructor of class)
+        Day1  day1 = new Day1();
+        System.out.println(day1.pizzaTopping);
+        //First You Set Value
+//        day1.setPizzaTopping("Pepporoni",2);
+//        //Get Value
+//        day1.getPizzaTopping();
+//        System.out.println(day1.pizzaTopping+" "+day1.numOfToppings);
+        day1.getFullName();
+        System.out.println(day1.fullName);
+        day1.setFullName("Beenish Bajwa");
+        System.out.println(day1.fullName);
 
         //Created Variables
         String firstName = "Pritam ";
@@ -92,4 +123,5 @@ public class Day1 {
     public void myAgeIs() {
         System.out.println("My age is " + age);
     }
+
 }

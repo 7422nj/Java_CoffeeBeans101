@@ -4,14 +4,14 @@ public class DoWhileLoop {
     public static void main(String[] args) {
 
         // Our Starting Value
-         int i=5; // Initializing A Value of i  //#1 Step
+         int i=25; // Initializing A Value of i  //#1 Step
 
 
         do{ // RUN At Least ONCE
 
-            System.out.println("i"); // print values of i //#2 Step
+            System.out.println(i+" : i "); // print values of i //#2 Step
 
-            i++; // increment //#3 Step
+            i--; // increment //#3 Step
 
             // If Value Meets Condition
             // Will Run Continuously Until Condition is Met
